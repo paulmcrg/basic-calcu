@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-	
+	// calcu basic
 	
 	char cal;
 	int num1,num2,total;
