@@ -5,7 +5,7 @@ int main(){
 	// calcu basic
 	
 	char cal;
-	int num1,num2,total;
+	double num1,num2, num3,total;
 	
 	cout<<"choose a operation to perform + - * /"<<endl;
 	cin>>cal;
@@ -16,19 +16,20 @@ int main(){
 	cout<<"enter second number "<<endl;
 	cin>>num2;
 
-		
+	cout<<"enter third number"<<endl;
+	cin>>num3;
 	switch(cal){
 		
-		case '+': total = num1 + num2;
+		case '+': total = num1 + num2 + num3;
 		break;
 		
-		case '-': total = num1 - num2;
+		case '-': total = num1 - num2 - num3;
 		break;
 		
-		case '*': total = num1 * num2;
+		case '*': total = num1 * num2 * num3;
 		break;
 		
-		case '/':total = num1 / num2;
+		case '/':total = num1 / num2 / num3;
 		break;
 		
 		default:
